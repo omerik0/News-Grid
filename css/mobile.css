@@ -1,0 +1,83 @@
+/* navbar */
+#main-nav i{
+    display: none;
+}
+#main-nav .container{
+    grid-template-columns: 1fr;
+
+}
+#main-nav ul,
+#main-nav .logo{
+    justify-self: center;
+    padding:.55rem;
+}
+
+/* showcase */
+#showcase .showcase-content{
+    width: 90%;
+    overflow: visible;
+}
+#showcase .showcase-content a{
+    display: none;
+}
+/* editor picks */
+#editor-picks .grid-editor{
+    grid-template-columns: repeat(2,1fr);
+}
+#editor-picks .grid-editor .item-1 img,
+#editor-picks .grid-editor .item-7 img{
+    object-fit:cover;
+}
+#editor-picks .grid-item{
+    grid-column: span 2;
+}
+
+#editor-picks .grid-editor .item-6{
+    grid-column: span 2;
+}
+
+/* footer */
+.foot-container .item1,
+.foot-container .item2,
+.foot-container .item3,
+.foot-container .item4{
+    grid-template-columns: 1fr;
+    grid-column: 1/span1;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.foot-container .item3{
+    text-align: center;
+}
+.foot-container .item3 ul
+ {
+    margin-left: 15%;
+}
+.foot-container .item1 img{
+   margin: 0 auto;
+}
+
+/* ABOUT PAGE */
+.about-grid{
+    grid-template-columns: 1fr;
+}
+
+/* article page */
+.article-grid{
+    grid-template-columns: 1fr;
+}
+
+.article-grid .article-card:nth-child(2){
+    text-align: center;
+}
+.article-grid .article-card:nth-child(2) ul li{
+    width: 100%;
+    
+}
+
+
+.article-grid .article-card:last-child{
+    text-align: center;
+}
