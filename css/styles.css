@@ -345,10 +345,9 @@ h1,h2,h3,h4,h5,h6{
   
 }
 
-.foot-container .item2 input,
-.foot-container .item2 a{
+.foot-container .item2 input{
     padding: 8px 15px;
-    margin: 5px;
+    margin-bottom: 5px;
     width: 90%;
 }
 .foot-container .item2 input[type='submit']:hover{
