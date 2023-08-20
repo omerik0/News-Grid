@@ -51,8 +51,7 @@
     </main>
     
     <footer id="main-footer">
-        <div class="container">
-        <div class="foot-container">
+        <div class="container foot-container">
             <div class="foot item1">
                 <img src="image_resources/logo_light.png" alt="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos expedita delectus modi quam amet, consequatur a eius natus quibusdam atque.
@@ -60,8 +59,10 @@
             <div class="foot item2">
                 <h3>EMAIL NEWSLETTER</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <input type="email" id="email" placeholder="ENTER EMAIL...">
-                <a class="btn btn-red" href="#">Subscribe</a>
+                <form name="contact" method="POST" data-netlify="true">
+                <input type="email" id="email" placeholder="Enter Email...">
+                <input type="submit" value="Subscribe" class="btn btn-red">
+            </form>
             </div>
             <div class="foot item3">
                 <h3>SITE LINKS</h3>
@@ -82,7 +83,7 @@
                 <p>Copyright &copy;,All Rights Reserved</p>
             </div>
         </div>
-    </div>
+    
     </footer>
     
 
